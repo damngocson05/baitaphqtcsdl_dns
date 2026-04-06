@@ -24,19 +24,21 @@
 
 ## 🗄️ 2. Quản trị Cơ sở dữ liệu
 - **Database:** `QL_sinhvien` được lưu trữ tại ổ đĩa E (Khác ổ C).
-- **Bảng dữ liệu:** Đã thiết kế bảng `SinhVien` với khóa chính `masv`.
-- **Import:** Nạp thành công dữ liệu từ file `svtnut.csv`.
-<img width="869" height="785" alt="06a8d409-cbd6-4b4a-bc89-7437e7fe57a8" src="https://github.com/user-attachments/assets/e3e59504-fe0a-4fdb-8d55-b7a517322f4f" />
+- **Bảng dữ liệu:** Đã thiết kế bảng `SinhVien` với khóa chính `masv`<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/003bccb5-93e5-45da-b7bc-08e12e3c0991" />
 
-> ![Danh sách file .mdf và .ldf tại thư mục lưu trữ](<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/397253ec-e364-47c9-b343-d4deefe89abb" />
-)
+- **Import:** Nạp thành công dữ liệu từ file `svtnut.csv`<img width="869" height="785" alt="06a8d409-cbd6-4b4a-bc89-7437e7fe57a8" src="https://github.com/user-attachments/assets/e3e59504-fe0a-4fdb-8d55-b7a517322f4f" />
+
+- Lệnh kiểm tra số dòng sau khi import <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/22ada1fd-1ab5-4886-9205-1a5fd89ecf5c" />
+
 
 ---
 
 ## 📊 3. Thao tác dữ liệu nâng cao 
 Thực hiện các yêu cầu nghiệp vụ bằng SQL Script:
-1. **Kiểm tra số dòng:** Đạt `12004` dòng (xấp xỉ 12020).
-2. **Insert:** Thêm thông tin cá nhân sinh viên thực hiện bài.
+1. **Kiểm tra số dòng:** Đạt `12004` dòng (xấp xỉ 12020)<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/22ada1fd-1ab5-4886-9205-1a5fd89ecf5c" />
+
+2. **Insert:** Thêm thông tin cá nhân sinh viên thực hiện bài<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ea168e52-8c34-43e8-8c31-9b4041acdfdf" />
+
 3. **Update:** Cập nhật `noisinh = 'Sao Hoả'` cho các dòng dữ liệu trống.
 4. **Select Into:** Tạo bảng `SaoHoa` từ danh sách sinh viên quê 'Sao Hoả'.
 5. **Delete:** Xóa sinh viên cùng họ trong bảng `SaoHoa`.
