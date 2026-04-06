@@ -17,8 +17,12 @@
 - Kiểm tra Port trên CMD
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a06d5bca-6e4f-49af-a8c9-85603dd914c5" />
 
-- **Xác thực:** Mixed Mode (Windows Auth & SQL Auth `sa/123`).
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ac9bae4a-9c2c-413c-9236-8433707448c3" />
+- **Xác thực:** Mixed Mode 
+> Windows Authentication
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/444c24ff-adc6-498f-9698-5a64242b49e8" />
+
+> SQL Server Authentication 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c7f18bc2-4d26-4fe2-aaa5-cdf5fe88e923" />
 
 ---
 
