@@ -43,15 +43,23 @@ Thực hiện các yêu cầu nghiệp vụ bằng SQL Script:
 
 2. **Insert:** Thêm thông tin cá nhân sinh viên thực hiện bài<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ea168e52-8c34-43e8-8c31-9b4041acdfdf" />
 
-3. **Update:** Cập nhật `noisinh = 'Sao Hoả'` cho các dòng dữ liệu trống.
-4. **Select Into:** Tạo bảng `SaoHoa` từ danh sách sinh viên quê 'Sao Hoả'.
+3. **Update:** Cập nhật `noisinh = 'Sao Hoả'` cho các dòng dữ liệu trống.<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/180114b7-d7b2-4b02-91b3-14fe49660b1a" />
+
+4. **Select Into:** Tạo bảng `SaoHoa` từ danh sách sinh viên quê 'Sao Hoả'.<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/216433d4-a9f9-45a5-9328-a5f2ef9ad5ac" />
+
 5. **Delete:** Xóa sinh viên cùng họ trong bảng `SaoHoa`.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e9027216-85e2-4b74-a7fe-2de989d49f09" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2fc9ca30-d493-413d-a2a6-626cc7dc9689" />
 
 ---
 
 ## 📂 4. Sao lưu và Phục hồi 
 - **Backup:** Sử dụng tính năng **Generate Scripts (Schema + Data)** để xuất toàn bộ CSDL ra file `dulieu.sql`.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3c0303e1-5822-4c40-a172-351e5a455093" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6a850cfa-842d-4717-8219-c6d5f613c799" />
+
 - **Restore:** Đã thực hiện xóa Database, kiểm tra xóa file vật lý và chạy lại file `dulieu.sql` để khôi phục trạng thái ban đầu thành công.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/34a9d461-4f0f-45e9-a3a9-59d2a4d8ac81" />
 
 ---
 **Tệp đính kèm:** [Tải file dulieu.sql tại đây](./dulieu.sql)
