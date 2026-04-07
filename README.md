@@ -28,26 +28,33 @@
 
 ## 🗄️ 2. Quản trị Cơ sở dữ liệu
 - **Database:** `QL_sinhvien` được lưu trữ tại ổ đĩa E (Khác ổ C).
-- **Bảng dữ liệu:** Đã thiết kế bảng `SinhVien` với khóa chính `masv`<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/003bccb5-93e5-45da-b7bc-08e12e3c0991" />
+- **Bảng dữ liệu:** Đã thiết kế bảng `SinhVien` với khóa chính `masv`
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/003bccb5-93e5-45da-b7bc-08e12e3c0991" />
 
-- **Import:** Nạp thành công dữ liệu từ file `svtnut.csv`<img width="869" height="785" alt="06a8d409-cbd6-4b4a-bc89-7437e7fe57a8" src="https://github.com/user-attachments/assets/e3e59504-fe0a-4fdb-8d55-b7a517322f4f" />
+- **Import:** Nạp thành công dữ liệu từ file `svtnut.csv`
+<img width="869" height="785" alt="06a8d409-cbd6-4b4a-bc89-7437e7fe57a8" src="https://github.com/user-attachments/assets/e3e59504-fe0a-4fdb-8d55-b7a517322f4f" />
 
-- Lệnh kiểm tra số dòng sau khi import <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/22ada1fd-1ab5-4886-9205-1a5fd89ecf5c" />
+- Lệnh kiểm tra số dòng sau khi import
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/22ada1fd-1ab5-4886-9205-1a5fd89ecf5c" />
 
 
 ---
 
 ## 📊 3. Thao tác dữ liệu nâng cao 
 Thực hiện các yêu cầu nghiệp vụ bằng SQL Script:
-1. **Kiểm tra số dòng:** Đạt `12004` dòng (xấp xỉ 12020)<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/22ada1fd-1ab5-4886-9205-1a5fd89ecf5c" />
+1. **Kiểm tra số dòng:** Đạt `12004` dòng (xấp xỉ 12020)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/22ada1fd-1ab5-4886-9205-1a5fd89ecf5c" />
 
-2. **Insert:** Thêm thông tin cá nhân sinh viên thực hiện bài<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ea168e52-8c34-43e8-8c31-9b4041acdfdf" />
+3. **Insert:** Thêm thông tin cá nhân sinh viên thực hiện bài
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ea168e52-8c34-43e8-8c31-9b4041acdfdf" />
 
-3. **Update:** Cập nhật `noisinh = 'Sao Hoả'` cho các dòng dữ liệu trống.<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/180114b7-d7b2-4b02-91b3-14fe49660b1a" />
+5. **Update:** Cập nhật `noisinh = 'Sao Hoả'` cho các dòng dữ liệu trống.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/180114b7-d7b2-4b02-91b3-14fe49660b1a" />
 
-4. **Select Into:** Tạo bảng `SaoHoa` từ danh sách sinh viên quê 'Sao Hoả'.<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/216433d4-a9f9-45a5-9328-a5f2ef9ad5ac" />
+7. **Select Into:** Tạo bảng `SaoHoa` từ danh sách sinh viên quê 'Sao Hoả'.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/216433d4-a9f9-45a5-9328-a5f2ef9ad5ac" />
 
-5. **Delete:** Xóa sinh viên cùng họ trong bảng `SaoHoa`.
+9. **Delete:** Xóa sinh viên cùng họ trong bảng `SaoHoa`.
 
 > Danh sách sinh viên cùng họ Đàm
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e9027216-85e2-4b74-a7fe-2de989d49f09" />
@@ -72,7 +79,19 @@ Thực hiện các yêu cầu nghiệp vụ bằng SQL Script:
 > Tiến hành khôi phục database
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/34a9d461-4f0f-45e9-a3a9-59d2a4d8ac81" />
 
-- **!**: Do lượng dữ liệu lớn nên trong lúc khôi phục có gặp chút vấn đề nên em đã chuyển qua khôi phục bằng CMD
+- **Tuy nhiên:** Do lượng dữ liệu lớn nên trong lúc khôi phục có gặp chút vấn đề nên em đã chuyển qua khôi phục bằng CMD
 - sqlcmd -S localhost,36061 -E -i "E:\baitap\Hệ quản trị cơ sở dữ liệu\QL_sinhvien\dulieu.sql"
+
+> Kết quả dữ liệu trong db.SinhVien và db.SaoHoa đã được khôi phục
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5cd31ee6-29d8-4e60-a713-173316269193" />
+
+
+---
+## Kết luận
+Hy vọng bài tập này đáp ứng được các yêu cầu của môn học. Mọi đóng góp hoặc thắc mắc vui lòng liên hệ qua email: **K235480106061@Tnut.edu.vn**.
+
+Người thực hiện
+**Đàm Ngọc Sơn**
+
 ---
 **Tệp đính kèm:** [Tải file dulieu.sql tại đây](./dulieu.sql)
