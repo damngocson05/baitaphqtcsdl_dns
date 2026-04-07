@@ -48,18 +48,31 @@ Thực hiện các yêu cầu nghiệp vụ bằng SQL Script:
 4. **Select Into:** Tạo bảng `SaoHoa` từ danh sách sinh viên quê 'Sao Hoả'.<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/216433d4-a9f9-45a5-9328-a5f2ef9ad5ac" />
 
 5. **Delete:** Xóa sinh viên cùng họ trong bảng `SaoHoa`.
+
+> Danh sách sinh viên cùng họ Đàm
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e9027216-85e2-4b74-a7fe-2de989d49f09" />
+
+> Tiến hành xóa sanh sách sinh viên cùng họ
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2fc9ca30-d493-413d-a2a6-626cc7dc9689" />
 
 ---
 
 ## 📂 4. Sao lưu và Phục hồi 
 - **Backup:** Sử dụng tính năng **Generate Scripts (Schema + Data)** để xuất toàn bộ CSDL ra file `dulieu.sql`.
+
+> Xuất thành công file dulieu.sql
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3c0303e1-5822-4c40-a172-351e5a455093" />
+
+- **Restore:** Đã thực hiện xóa Database, kiểm tra xóa file vật lý và chạy lại file `dulieu.sql` để khôi phục trạng thái ban đầu.
+> Tiến hành xóa database
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6a850cfa-842d-4717-8219-c6d5f613c799" />
 
 - **Restore:** Đã thực hiện xóa Database, kiểm tra xóa file vật lý và chạy lại file `dulieu.sql` để khôi phục trạng thái ban đầu thành công.
+
+> Tiến hành khôi phục database
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/34a9d461-4f0f-45e9-a3a9-59d2a4d8ac81" />
 
+- **!**: Do lượng dữ liệu lớn nên trong lúc khôi phục có gặp chút vấn đề nên em đã chuyển qua khôi phục bằng CMD
+- sqlcmd -S localhost,36061 -E -i "E:\baitap\Hệ quản trị cơ sở dữ liệu\QL_sinhvien\dulieu.sql"
 ---
 **Tệp đính kèm:** [Tải file dulieu.sql tại đây](./dulieu.sql)
