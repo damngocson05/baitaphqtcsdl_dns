@@ -84,7 +84,9 @@ Thực hiện các yêu cầu nghiệp vụ bằng SQL Script:
 
 > Kết quả dữ liệu trong db.SinhVien và db.SaoHoa đã được khôi phục
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5cd31ee6-29d8-4e60-a713-173316269193" />
+
 ## Upload file dulieu.sql lên github
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a180e93f-73df-4968-b767-596e2f32c4ab" />
 
 ---
 ## Kết luận
